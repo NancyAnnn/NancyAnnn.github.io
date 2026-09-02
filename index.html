@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NancyAnnn · 技术美术作品集</title>
+  <meta name="description" content="NancyAnnn 的技术美术个人作品集：游戏渲染、着色器、Unity / Unreal / Maya 全流程项目演示。">
+  <meta property="og:title" content="NancyAnnn · 技术美术作品集">
+  <meta property="og:description" content="图形渲染 / 着色器 / 游戏引擎 / DCC 工具链 —— 技术美术作品与项目演示。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nancyannn.github.io/">
+  <meta property="og:image" content="https://nancyannn.github.io/images/cooking-game.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#works">跳到作品区</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#home">Nancy<span>Annn</span></a>
+      <div class="nav-links">
+        <a href="#works">视频作品</a>
+        <a href="#projects">项目经历</a>
+        <a href="#strengths">个人优势</a>
+        <a href="#education">教育经历</a>
+        <a class="nav-github" href="https://github.com/NancyAnnn" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">PORTFOLIO · TECHNICAL ARTIST</p>
+          <h1>技术美术作品集</h1>
+          <p class="hero-intro">
+            中国传媒大学 · 数字媒体技术（2024 – 2028）。
+            关注实时渲染、着色器与美术全流程落地，
+            从图形学原理到引擎与 DCC 工具链，把技术翻译成画面。
+          </p>
+          <ul class="tag-list" aria-label="技能标签">
+            <li>Rendering</li>
+            <li>Shader / HLSL / GLSL</li>
+            <li>Unity</li>
+            <li>Unreal</li>
+            <li>Maya</li>
+            <li>Python</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#works">观看作品视频</a>
+            <a class="btn btn-ghost" href="https://github.com/NancyAnnn" target="_blank" rel="noopener">GitHub 主页</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="monogram">TA</div>
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video works -->
+    <section class="section" id="works">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">VIDEO SHOWCASE</p>
+          <h2>视频作品</h2>
+          <p class="section-desc">点击卡片在线播放演示视频。视频已压缩为网页版，原片均保留于本地。</p>
+        </header>
+
+        <div class="works-grid">
+
+          <article class="work-card" data-title="3D 烹饪游戏" data-video="videos/cooking-game.mp4"
+                   data-desc="Unity · C# —— 单例 + 有限状态机架构的烹饪玩法原型。">
+            <button class="work-media" type="button" aria-label="播放视频：3D 烹饪游戏">
+              <img src="images/cooking-game.jpg" alt="3D 烹饪游戏演示画面" loading="lazy" width="1000" height="625">
+              <span class="play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              <span class="duration">1:07</span>
+            </button>
+            <div class="work-body">
+              <h3>3D 烹饪游戏</h3>
+              <p class="work-tags">Unity · C# · 状态机</p>
+              <p class="work-desc">基于单例模式与 FSM 构建核心架构，通过接口抽象柜台与玩家交互，演示完整操作流程。</p>
+              <span class="work-meta">MP4 · 1440×900 · 2.7 MB</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-title="3D游戏着色器进阶实践" data-video="videos/shader-study.mp4"
+                   data-desc="GLSL / HLSL —— 光照、屏幕空间特效与全屏后处理链。">
+            <button class="work-media" type="button" aria-label="播放视频：3D游戏着色器进阶实践">
+              <img src="images/shader-study.jpg" alt="着色器进阶实践演示画面" loading="lazy" width="1000" height="792">
+              <span class="play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              <span class="duration">0:36</span>
+            </button>
+            <div class="work-body">
+              <h3>3D游戏着色器进阶实践</h3>
+              <p class="work-tags">GLSL · HLSL · C++ · 后处理</p>
+              <p class="work-desc">十余种着色器与后期技术：Blinn-Phong、法线贴图、SSAO、SSR、景深、Bloom、色差等。</p>
+              <span class="work-meta">MP4 · 1200×950 · 5.0 MB</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-title="GameJam《六日英雄》玩法演示" data-video="videos/six-days-hero.mp4"
+                   data-desc="Unity 2D 生存 × 卡牌 × 多结局 —— 技术美术，完整玩法流程演示。">
+            <button class="work-media" type="button" aria-label="播放视频：六日英雄玩法演示">
+              <img src="images/six-days-hero.jpg" alt="六日英雄玩法演示画面" loading="lazy" width="1000" height="564">
+              <span class="play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              <span class="duration">4:34</span>
+            </button>
+            <div class="work-body">
+              <h3>GameJam《六日英雄》玩法演示</h3>
+              <p class="work-tags">Unity 2D · 技术美术 · 2026.08</p>
+              <p class="work-desc">UI 架构与动效、腐蚀卡牌 Shader、120+ 风格化贴图整合、数据驱动的内容管线。</p>
+              <span class="work-meta">MP4 · 1440×812 · 15.9 MB</span>
+            </div>
+          </article>
+
+          <article class="work-card" data-title="Maya 角色绑定演示" data-video="videos/maya-rigging.mp4"
+                   data-desc="Maya + Python —— FK/IK 与自动绑定工具流程。">
+            <button class="work-media" type="button" aria-label="播放视频：Maya 角色绑定演示">
+              <img src="images/maya-rigging.jpg" alt="Maya 角色绑定演示画面" loading="lazy" width="1000" height="452">
+              <span class="play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              <span class="duration">2:34</span>
+            </button>
+            <div class="work-body">
+              <h3>Maya 角色绑定</h3>
+              <p class="work-tags">Maya · Python · FK/IK</p>
+              <p class="work-desc">FK/IK 胳膊与腿部、手部、面部绑定、Spine IK，并开发 Python 自动绑定工具。</p>
+              <span class="work-meta">MP4 · 1440×650 · 5.4 MB</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">EXPERIENCE</p>
+          <h2>项目经历</h2>
+        </header>
+
+        <div class="project-list">
+
+          <article class="project">
+            <div class="project-head">
+              <div>
+                <h3>3D 烹饪游戏</h3>
+                <p class="work-tags">Unity · C#</p>
+              </div>
+              <span class="project-year">个人项目</span>
+            </div>
+            <ul>
+              <li>基于单例模式（Singleton）与有限状态机构建核心架构，高效管理全局游戏状态及复杂的角色交互逻辑，大幅提升代码可读性与扩展性。</li>
+              <li>应用面向对象设计，通过接口（Interface）抽象物体交互逻辑，统一了不同交互对象（柜台、玩家）的行为规范，便于后续扩展新功能。</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <div>
+                <h3>3D游戏着色器进阶实践</h3>
+                <p class="work-tags">GLSL · C++ / HLSL · C#</p>
+              </div>
+              <span class="project-year">技术研究</span>
+            </div>
+            <p class="project-overview">系统性学习并实现了现代游戏渲染中的十余种核心着色器技术与后期处理特效，理解图形渲染管线各环节的工作原理与性能考量。</p>
+            <ul>
+              <li><strong>光照与材质：</strong>实现 Blinn-Phong 光照模型、法线贴图（Normal Mapping），并拓展了边缘光（Rim Lighting）与赛璐珞渲染（Cel Shading），理解不同材质的光学响应。</li>
+              <li><strong>屏幕空间特效：</strong>基于帧缓冲（Framebuffer）实现屏幕空间环境光遮蔽（SSAO）、屏幕空间反射（SSR）与景深（Depth of Field）等高阶后期特效。</li>
+              <li><strong>动态效果系统：</strong>实现流光贴图（Flow Mapping）与水浪泡沫（Foam）特效，掌握纹理动画与顶点动画的结合应用。</li>
+              <li><strong>全屏后处理链：</strong>组合实现泛光（Bloom）、动态模糊（Motion Blur）、色差（Chromatic Aberration）等效果，理解多 Pass 渲染与性能优化策略。</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <div>
+                <h3>GameJam《六日英雄》</h3>
+                <p class="work-tags">Unity 2D · 生存 × 预部署卡牌 × 多结局</p>
+              </div>
+              <span class="project-year">2026.08</span>
+            </div>
+            <p class="project-overview">担任技术美术，负责游戏表现层实现与美术资源全链路整合。</p>
+            <ul>
+              <li><strong>UI 表现层与动效系统：</strong>搭建主菜单 → 剧情 → 庇护所 → 战斗 → 事件 → 结算 → 多结局完整 UI 架构，编写 30+ 表现层 C# 脚本。独立设计并实现轻量动画系统（无第三方插件），统一调度手牌扇形排列、拖拽吸附、悬停/按压反馈与场景转场，将策划节奏规范参数化落地。</li>
+              <li><strong>Shader 与材质效果：</strong>编写自定义 UI Shader（CG），基于贴图 Alpha 实现加色泛光，通过运行时的材质实例控制发光强度；以暗红覆盖层表现“腐蚀”卡牌状态，贴合“暖底 + 暗色主体 + 暗红冲突色”整体美术风格。</li>
+              <li><strong>美术资源整合：</strong>主导 120+ 张风格化贴图的整合、导入配置、材质接入与图集管理（角色多状态立绘、怪物、多结局插画、事件插图、全套 UI 切图）。</li>
+              <li><strong>数据驱动内容管线：</strong>将卡牌、事件、幸存者、多结局的数据与表现层打通——立绘、插图按 ID 自动匹配，实现内容迭代不改代码。</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <div>
+                <h3>Maya 角色绑定</h3>
+                <p class="work-tags">Maya</p>
+              </div>
+              <span class="project-year">个人项目</span>
+            </div>
+            <ul>
+              <li>独立完成角色绑定，包括 FK/IK 胳膊与腿部、手部、面部、反转脚、Spine IK。</li>
+              <li>开发 Python 脚本工具实现自动绑定，显著提升绑定效率。</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Strengths -->
+    <section class="section" id="strengths">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">STRENGTHS</p>
+          <h2>个人优势</h2>
+        </header>
+        <div class="strength-grid">
+
+          <article class="strength">
+            <span class="strength-num">01</span>
+            <h3>图形渲染与着色器开发</h3>
+            <p>深入理解现代渲染管线，熟练编写 HLSL / GLSL 着色器，实现 PBR 光照、法线贴图、SSR、SSAO、景深等高级效果，能在效果与性能间取得平衡。</p>
+          </article>
+
+          <article class="strength">
+            <span class="strength-num">02</span>
+            <h3>游戏引擎与 DCC 工具链</h3>
+            <p>熟练使用 Unity（C#）与 Unreal（蓝图与材质系统），掌握材质工作流与光照烘焙；掌握 Maya 角色绑定，并用 Python 打通资产制作到引擎集成的全链路。</p>
+          </article>
+
+          <article class="strength">
+            <span class="strength-num">03</span>
+            <h3>技术实现与架构思维</h3>
+            <p>扎实的 C++ / C# / Python 编程基础，熟悉常用设计模式与数据结构，能独立完成游戏原型与图形 Demo，具备从零搭建渲染框架、封装底层资源管理的能力。</p>
+          </article>
+
+          <article class="strength">
+            <span class="strength-num">04</span>
+            <h3>审美素养与协作意识</h3>
+            <p>技术与艺术的双重视角，对多种美术风格敏感。善于跨岗位沟通，能把美术需求转化为技术方案，主动推进任务落地。</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+      <div class="container container-narrow">
+        <header class="section-head">
+          <p class="kicker">EDUCATION</p>
+          <h2>教育经历</h2>
+        </header>
+        <article class="edu-card">
+          <div class="edu-top">
+            <h3>中国传媒大学</h3>
+            <span class="project-year">2024 – 2028</span>
+          </div>
+          <p class="work-tags">本科 · 数字媒体技术</p>
+          <ul>
+            <li>核心课程：计算机图形学、游戏引擎原理、数据结构与算法、三维建模与动画基础。</li>
+            <li>学术表现：获校级奖学金，具备扎实的自学能力与自驱力。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 NancyAnnn · 技术美术作品集</p>
+      <a href="https://github.com/NancyAnnn" target="_blank" rel="noopener">github.com/NancyAnnn</a>
+    </div>
+  </footer>
+
+  <!-- Video lightbox -->
+  <div class="modal" id="videoModal" hidden aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close aria-label="关闭视频">&times;</button>
+      <p class="modal-tags" id="modalTags"></p>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <div class="modal-video-wrap">
+        <video id="modalVideo" controls preload="metadata" playsinline></video>
+      </div>
+      <p class="modal-desc" id="modalDesc"></p>
+      <p class="modal-hint">加载较慢时，可点视频右下角全屏；如需高清原片可联系我获取。</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
