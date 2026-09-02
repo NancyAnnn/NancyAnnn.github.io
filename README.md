@@ -1,6 +1,6 @@
-# NancyAnnn · 技术美术作品集
+# NancyAnnn · 作品集
 
-基于 GitHub Pages 的静态个人作品集网页，包含简历信息与 4 个在线视频演示（游戏玩法、着色器、Maya 绑定）。
+基于 GitHub Pages 的静态个人作品集网页，包含简历信息与 在线视频演示（游戏玩法、着色器、Maya 绑定）。
 
 ## 目录结构
 
@@ -14,40 +14,8 @@
 └── README.md
 ```
 
-视频原始文件在 `D:\Ann_TA_works\showreel`，仓库内是压缩后的 H.264 MP4（HTML5 可直接播放、支持拖动进度）。
+仓库内是压缩后的 H.264 MP4（HTML5 可直接播放、支持拖动进度）。
 
-## 发布到 GitHub Pages（一次性步骤）
-
-1. 打开 <https://github.com/new>，新建 **公开** 仓库，仓库名必须精确为：
-
-   ```text
-   NancyAnnn.github.io
-   ```
-
-   （不要勾选 “Add a README” / “Add .gitignore”，保持空仓库。）
-
-2. 在本项目文件夹打开终端（PowerShell），依次执行：
-
-   ```powershell
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/NancyAnnn/NancyAnnn.github.io.git
-   git push -u origin main
-   ```
-
-   > 若提示登录：选择 “Sign in with your browser” 按浏览器提示完成授权即可（已配置 Windows 凭据管理器时会自动登录）。
-
-3. 进入仓库 Settings → Pages：
-   - Source 选择 **Deploy from a branch**
-   - Branch 选择 **main** 与 **/ (root)**
-   - 点击 Save
-
-4. 等待 1–2 分钟构建完成后，访问：
-
-   ```text
-   https://NancyAnnn.github.io/
-   ```
 
 ## 以后更新内容
 
@@ -58,7 +26,14 @@ git commit -m "更新作品"
 git push
 ```
 
-约 1 分钟后网页自动更新。想要给封面/说明/项目改文案，直接编辑 `index.html` 即可。
+约 1 分钟后网页自动更新，访问：
+
+   ```text
+   https://NancyAnnn.github.io/
+   ```
+
+
+想要给封面/说明/项目改文案，直接编辑 `index.html` 即可。
 
 ## 注意事项
 
